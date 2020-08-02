@@ -1,4 +1,4 @@
-public interface Phone {
+interface Phone {
     // 拨号
     void dial(String number);
     // 通话
@@ -7,7 +7,7 @@ public interface Phone {
     void hangup();
 }
 
-public interface ConnectManager {
+interface ConnectManager {
      // 拨号
      void dial(String number);
      // 通话
@@ -15,12 +15,12 @@ public interface ConnectManager {
 
 }
 
-public interface DataTransfer {
+interface DataTransfer {
     // 通话
     void chat(Object o);
 }
 
-public class PhoneImpl implents ConnectManger, DataTransfer {
+class PhoneImpl implents ConnectManger, DataTransfer {
     // 拨号实现
     public void dial(String number) {
         // logic impl

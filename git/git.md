@@ -4,7 +4,7 @@
 2. git init 初始化git项目
 3. git add .  添加项目到仓库
 4. git commit -m "注释" 提交项目到仓库
-5. git push origin branch-name  提交项目到远程
+5. git push origin branch-name  提交项目到远程仓库
 
 
 
